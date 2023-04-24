@@ -10,6 +10,7 @@ public class tast1_2 {
             while (i < k) {
                 if (k % i == 0) {
                     t++;
+                    break;
                 }
                 i++;
             }
